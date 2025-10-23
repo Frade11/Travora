@@ -199,6 +199,7 @@ body {
 @media (max-width: 850px) {
     .navbar {
         padding: 15px 0;
+        background: rgba(0, 0, 0, 0.9);
     }
     
     .navbar .page_container {
@@ -219,6 +220,7 @@ body {
         opacity: 0;
         visibility: hidden;
         transition: all 0.3s ease;
+        backdrop-filter: blur(10px);
     }
     
     .nav-links.active {
@@ -228,11 +230,15 @@ body {
     }
     
     .nav-links a {
-        margin: 15px 0;
-        padding: 12px 0;
+        margin: 0;
+        padding: 15px 0;
         width: 100%;
         text-align: center;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .nav-links a:last-child {
+        border-bottom: none;
     }
     
     .menu-toggle {
@@ -260,6 +266,7 @@ body {
     .hero-content h1 {
         font-size: 28px;
         margin-bottom: 15px;
+        line-height: 1.4;
     }
     
     .hero-content p {
@@ -302,5 +309,4 @@ body {
         font-size: 14px;
     }
 }
-
 
