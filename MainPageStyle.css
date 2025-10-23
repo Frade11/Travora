@@ -309,4 +309,31 @@ body {
         font-size: 14px;
     }
 }
+@media (max-width: 480px) {
+    .hero {
+        height: 450px;
+        padding-bottom: 30px;
+    }
+    
+    .hero-content h1 {
+        font-size: 24px;
+    }
+    
+    .hero-content p {
+        font-size: 13px;
+    }
+    
+    .hotel-filter {
+        padding: 15px;
+        gap: 15px;
+    }
+    
+    .navbar .page_container {
+        padding: 0 15px;
+    }
+    
+    .hero-content {
+        margin-bottom: 30px;
+    }
+}
 
